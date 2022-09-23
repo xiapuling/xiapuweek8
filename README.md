@@ -2,4 +2,4 @@
 
 A random number casino for use on Ethereum blockchains.
 
-[Click here for a detailed explanation](https://blog.logrocket.com/build-random-number-generator-blockchain/).
+Contract Address: https://blockscout.com/optimism/goerli/address/0x412EFe8303264B2308d69a1dD968F5210aa1a184
