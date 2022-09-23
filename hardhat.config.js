@@ -24,20 +24,10 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 module.exports = {
   solidity: "0.8.4",
-/*
   networks: {
-    "local-devnode": {
-       url: "http://localhost:8545",
-       accounts: { mnemonic: "test test test test test test test test test test test junk" }
-    },
-    "optimistic-kovan": {
-       url: "https://kovan.optimism.io",
-       accounts: { mnemonic: process.env.MNEMONIC }
-    },
-    "optimism": {
-       url: "https://mainnet.optimism.io",
-       accounts: { mnemonic: process.env.MNEMONIC }
-    }
+  optimismGoerli: { // to deploy on this network: npx hardhat run scripts/deploy.js --network optimismGoerli (and etc for other networks if we add anymore)
+    url: process.env.OPTIMISM_GOERLI_URL,
+    accounts: [process.env.PRIVATE_KEY]
   }
-*/
+},
 };
